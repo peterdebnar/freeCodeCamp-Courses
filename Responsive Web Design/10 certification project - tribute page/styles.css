@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    text-align: center;
+    background-color: #EEE;
+  }
+  
+  header {
+    padding: 50px 0 20px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  
+  #img-div {
+    background: white;
+    padding: 10px;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  figcaption {
+    margin: 20px;
+  }
+  
+  #tribute-div {
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  #tribute-info {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    margin: 50px 0;
+  }
+  
+  li {
+    margin: 20px 0;
+  }
+  
+  #cite-text {
+    margin:  50px 0 20px;
+  }
+  
+  #link-text {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 50px 0 30px;
+  }

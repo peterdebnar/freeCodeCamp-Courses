@@ -1,0 +1,165 @@
+:root {
+    --color-one: #BE3144;
+    --color-two: #F0F0F0;
+    --color-three: #3A3D40;
+    --color-four: #45567D;
+    --color-five: #303841;
+  }
+  
+  
+  @media (max-width: 800px) {
+    body {
+      color: red;
+    }
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  #navbar {
+    position: sticky;
+    top: 0;
+    background: var(--color-one);
+  }
+  
+  #navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+  }
+  
+  #navbar li {
+    list-style-type: none;
+    margin: 0 10px;
+  }
+  
+  #navbar a {
+    color: var(--color-two);
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  #welcome-section {
+    background-color: var(--color-three);
+    padding: 40vh 0;
+  } 
+  
+  h1 {
+    color: var(--color-two);
+    font-size: 70px;
+    margin-bottom: 20px;
+  }
+  
+  #welcome-section p {
+    color: var(--color-one);
+    font-size: 30px;
+  }
+  
+  #project-section {
+    background-color: var(--color-four);
+    padding: 0 15vw 10vh;
+  }
+  
+  #project-section h2 {
+    color: var(--color-two);
+    text-decoration: underline;
+    font-size: 35px;
+    padding: 50px 0;
+  }
+  
+  .projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .project-tile {
+    height: 450px;
+    width: 400px;
+    background-color: var(--color-five);
+    color: var(--color-two);
+    font-size: 25px;
+    margin: 30px 50px;
+    cursor: pointer;
+  }
+  
+  @keyframes orange-span {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .project-tile span {
+    color: orange;
+    transition: opacity 0.7s ease;
+    opacity: 0;
+  }
+  
+  .project-tile:hover span {
+    opacity: 1;
+  }
+  
+  .project-tile p {
+    padding: 30px 0;
+  }
+  
+  .project-tile img {
+    width: 100%;
+    height: 80%;
+  }
+  
+  #work-together {
+    background-color: var(--color-three);
+    color: var(--color-two);
+    padding: 25vh 0;
+  }
+  
+  #work-together p {
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 70px;
+  }
+  
+  #work-together ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #work-together li {
+    margin: 0 50px;
+    list-style-type: none;
+  }
+  
+  #work-together a {
+    text-decoration: none;
+    color: var(--color-two);
+    font-size: 30px;
+  }
+  
+  #work-together i {
+    margin-right: 10px;
+  }
+  
+  footer {
+    height: 10vh;
+    background-color: var(--color-three);
+    border-top: 5px solid var(--color-one);
+    color: var(--color-two);
+  }
+  
+  footer p {
+    padding: 3.9vh 0;
+    font-size: 20px
+  }
