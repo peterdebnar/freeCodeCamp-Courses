@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://api.wallpapers.ai/static/downloads/936e9c70f93942ce84f572bfddafb240/upscaled/000000_981068920_kdpmpp2m15_PS7.5_Design_a_desktop_wallpaper_in_the_Pok_mon_art_style_a_serene_landscape_with_rolling_hills,_lush_foliage,_and_winding_paths._Captur_[upscaled].jpg");
+    background-size: cover;
+  }
+  
+  h1 {
+    color: #e2bc06;
+    text-shadow: 0px 0px 5px black;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+  }
+  
+  p {
+    font-size: 25px;
+  }
+  
+  h3 {
+    font-size: 30px;
+  }
+  
+  #main-div {
+    background: white;
+    box-shadow: 0px 0px 10px black;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #search-input {
+    margin: 20px 20px 30px 0;
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  #search-button {
+    background: #e2bc06;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-shadow: 0px 0px 0px black;
+    box-shadow: 0px 0px 0px black;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  #search-button:hover {
+    text-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 10px black;
+  }
+  
+  #result-div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #name-id {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #img-div {
+    background: #FCFCFC;
+  }
+  
+  img {
+    height: 150px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+  }
+  
+  #height-weight {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #types p {
+    font-size: 15px;
+  }
+  
+  #types {
+    display: flex;
+  }
+  
+  .type-div {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    margin: 0px 10px 20px 0;
+  }
+  
+  .normal-type {
+    background: #A8A878;
+  }
+  
+  .fire-type {
+    background: #F08030;
+  }
+  
+  .water-type {
+    background: #6890F0;
+  }
+  
+  .electric-type {
+    background: #F8D030;
+  }
+  
+  .grass-type {
+    background: #78C850;
+  }
+  
+  .ice-type {
+    background: #98D8D8;
+  }
+  
+  .fighting-type {
+    background: #C03028;
+  }
+  
+  .poison-type {
+    background: #A040A0;
+  }
+  
+  .ground-type {
+    background: #E0C068;
+  }
+  
+  .flying-type {
+    background: #A890F0;
+  }
+  
+  .psychic-type {
+    background: #F85888;
+  }
+  
+  .bug-type {
+    background: #A8B820;
+  }
+  
+  .rock-type {
+    background: #B8A038;
+  }
+  
+  .ghost-type {
+    background: #705898;
+  }
+  
+  .dragon-type {
+    background: #7038F8;
+  }
+  
+  .dark-type {
+    background: #705848;
+  }
+  
+  .steel-type {
+    background: #B8B8D0;
+  }
+  
+  .fairy-type {
+    background: #F0B6BC;
+  }
+  
+  #table-div {
+    display: none;
+    justify-content: center;
+  }
+  
+  table {
+    background: #e2bc06;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px 10px;
+  }
+  
+  
+  
+  
